@@ -1,3 +1,17 @@
+mychart/
+├── Chart.yaml
+├── values.yaml
+├── .helmignore
+├── charts/
+└── templates/
+    ├── deployment.yaml
+    ├── service.yaml
+    ├── ingress.yaml
+    ├── _helpers.tpl
+    └── NOTES.txt
+
+
+
 # Helmcharts
 
 Helm charts in Kubernetes are a way to package, manage, and deploy applications easily. In simple terms, a Helm chart is like a predefined template or bundle of Kubernetes YAML files that describes an application and all the resources it needs, such as Deployments, Services, ConfigMaps, and Ingress. Instead of writing and managing multiple YAML files manually every time, you can use a Helm chart to install the entire application with a single command.
