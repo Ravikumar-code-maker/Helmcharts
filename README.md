@@ -11,6 +11,10 @@ mychart/
     └── NOTES.txt
 
 
+**What does Chart.yaml contain in Helm?**
+
+“Chart.yaml is the metadata file of a Helm chart. It contains essential information about the chart like its name, version, description, and dependencies. It helps Helm understand what the chart is and how it should be managed.”
+
 # Helmcharts
 
 Helm charts in Kubernetes are a way to package, manage, and deploy applications easily. In simple terms, a Helm chart is like a predefined template or bundle of Kubernetes YAML files that describes an application and all the resources it needs, such as Deployments, Services, ConfigMaps, and Ingress. Instead of writing and managing multiple YAML files manually every time, you can use a Helm chart to install the entire application with a single command.
